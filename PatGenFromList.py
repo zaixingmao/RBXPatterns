@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#Generates all possible pattern bricks with elements in ascii hex values, stores in new xml file
+#Generates all possible pattern bricks with elements in ascii hex values for a list of RBXs, stores in new xml file
 
 def generator(rbx="", rm="", card="", qie=""):
     out = []
