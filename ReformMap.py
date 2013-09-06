@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+#Generates .txt file in formatt same with oneRun.py from a list of RBXs
+
 def WordStrip(iStr="", index=""): #iStr: input string, index: the index-th word in the string that you're looking for
     nWord = 0
     i=0
