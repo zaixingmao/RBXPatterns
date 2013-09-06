@@ -30,32 +30,43 @@ def DoubleSpace(iStr=""):
     return "  ".join(oStr)
 
 
-lines = open("HCALmapHBEF_B.txt", "r").readlines() #opens & read the file
-output = open("HCALmapHBHEF2.txt", "w")  #opens & write the file
+def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
 
-RBXnameRange = ["HEP11"]
-rmRange = ["3","4"]
+    lines = open(iMapfile, "r").readlines() #opens & read the file
+    output = open(ofile, "w")  #opens & write the file
 
-for i in range(0, len(lines)):
-    if "## file created" in lines[i]: continue  #over pass un_needed lines
-    if "#   side    eta    phi   dphi" in lines[i]: continue
-    current_line = lines[i]
+    ListLines = open(iListfile, "r").readlines()
+
+    subdet = []
+    for i in range(0, len(ListLines)): #store subdet names
+        current_line = ListLines[i]
+        subdet.append(current_line[0:current_line.find(",")])
+
+    RBXnameRange = subdet
+    rmRange = ["1","2","3","4"]
+
+    for i in range(0, len(lines)):   #loop through Map file
+        if "## file created" in lines[i]: continue  #over pass un_needed lines
+        if "#   side    eta    phi   dphi" in lines[i]: continue
+        current_line = lines[i]
     
-    RBXname = WordStrip(current_line, 8)
-    rm = str(WordStrip(current_line, 10))
-    rm_fib = str(WordStrip(current_line, 14))
-    fi_ch = str(WordStrip(current_line, 15))
-    htr_fib = str(WordStrip(current_line, 19))
-    spigo = str(WordStrip(current_line, 21))
-    fedid = str(WordStrip(current_line, 31))
+        RBXname = WordStrip(current_line, 8)
+        rm = str(WordStrip(current_line, 10))
+        rm_fib = str(WordStrip(current_line, 14))
+        fi_ch = str(WordStrip(current_line, 15))
+        htr_fib = str(WordStrip(current_line, 19))
+        spigo = str(WordStrip(current_line, 21))
+        fedid = str(WordStrip(current_line, 31))
 
-    spigo = WordSpace(spigo,2)
-    htr_fib = WordSpace(htr_fib,2)
+        spigo = WordSpace(spigo,2)
+        htr_fib = WordSpace(htr_fib,2)
     
-    if RBXname in RBXnameRange:
-        if rm in rmRange and fi_ch == "0": #save only once per 3 channels
-            if len(RBXname)==5: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "  -  -  -  -  -  -  -  -  -  -  -  -  -\n"
-            else: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "  -  -  -  -  -  -  -  -  -  -  -  -\n"
-            output.writelines(outline)
+        if RBXname in RBXnameRange:
+            if rm in rmRange and fi_ch == "0": #save only once per 3 channels
+                if len(RBXname)==5: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "  -  -  -  -  -  -  -  -  -  -  -  -  -\n"
+                else: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "  -  -  -  -  -  -  -  -  -  -  -  -\n"
+                output.writelines(outline)
 
-output.close()    
+    output.close()   
+
+ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "test.txt") 
