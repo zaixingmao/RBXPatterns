@@ -56,19 +56,19 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
         rm = str(WordStrip(current_line, 10))
         rm_fib = str(WordStrip(current_line, 14))
         fi_ch = str(WordStrip(current_line, 15))
-        htr_fib = str(WordStrip(current_line, 19))
-        spigo = str(WordStrip(current_line, 21))
-        fedid = str(WordStrip(current_line, 31))
+        htr_fib = str(WordStrip(current_line, 20))
+        spigo = str(WordStrip(current_line, 22))
+        fedid = str(WordStrip(current_line, 24))
 
         spigo = WordSpace(spigo,2)
         htr_fib = WordSpace(htr_fib,2)
     
         if RBXname in RBXnameRange:
             if rm in rmRange and fi_ch == "0": #save only once per 3 channels
-                if len(RBXname)==5: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "  -  -  -  -  -  -  -  -  -  -  -  -  -\n"
-                else: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "  -  -  -  -  -  -  -  -  -  -  -  -\n"
+                if len(RBXname)==5: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "\n"
+                else: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "\n"
                 output.writelines(outline)
 
     output.close()   
 
-ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "test.txt") 
+ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers.txt", ofile = "HO_Map.txt") 
