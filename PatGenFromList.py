@@ -8,13 +8,14 @@ def generator(rbx="", rm="", card="", qie=""):
         out.append(format(ord(letter),"x"))
     for i in str(rm):
         out.append(format(ord(str(i)),"x"))
-    rm_fib = 2*(card-1) + 2 + qie/4
-    if "HF" in rbx: rm_fib = 2*(card-1) + 1 + qie/4
+    rm_fib = 2*card + qie/4
+    if "HF" in rbx: 
+        rm_fib -= 1
     for i in str(rm_fib):
         out.append(format(ord(str(i)),"x"))
     return " ".join(out)
 
-def generatorCM(rbx="", rm="", card="", qie=""):
+def generatorCM(rbx="", rm="", qie=""):
     out = []
     for letter in rbx:
         out.append(format(ord(letter),"x"))
@@ -66,19 +67,17 @@ def PatGenFromList(ifile = "", ofile = ""):
                         output.writelines(brick)
 
         #For Calibration Module
-        #rm = rm + 1
-        #card = 1
-        #for qie in [0,4]:
-        #   if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
-        #        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">2d %s 2d</Data>\n' %(rm, card, qie, generatorCM(rbx, rm, card, qie))
-        #        output.writelines(brick)
-        #    else:
-        #        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">2d %s 2d 2d</Data>\n' %(rm, card, qie, generatorCM(rbx, rm, card, qie))
-        #        output.writelines(brick)
-
-
-        #brick_end = '</CFGBrick>\n\n'
-        #output.writelines(brick_end)
+        rm += 1
+        card = 1
+        for qie in [0,4]:
+            if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
+                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">2d %s 2d</Data>\n' %(rm, qie, generatorCM(rbx, rm, qie))
+                output.writelines(brick)
+            else:
+                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">2d %s 2d 2d</Data>\n' %(rm, qie, generatorCM(rbx, rm, qie))
+                output.writelines(brick)
+        brick_end = '</CFGBrick>\n\n'
+        output.writelines(brick_end)
                 
     output.close()
 
