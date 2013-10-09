@@ -31,6 +31,33 @@ def DoubleSpace(iStr=""):
     for i in range(0, len(iStr)):   oStr.append(iStr[i])
     return "  ".join(oStr)
 
+def getKeyPosition(mapFileName = ""):
+    keyPosition = {}
+    keyPosition["RBXname"] = 8
+    keyPosition["rm"] = 10
+    keyPosition["rm_fib"] = 14
+    keyPosition["fi_ch"] = 15
+    
+    if "HBEF" in mapFileName:
+        keyPosition["htr_fib"] = 19
+        keyPosition["spigo"] = 21
+        keyPosition["fedid"] = 31
+    if "HO" in mapFileName:
+        keyPosition["htr_fib"] = 20
+        keyPosition["spigo"] = 22
+        keyPosition["fedid"] = 24
+    if "CALIB" in mapFileName:
+        keyPosition["RBXname"] = 7
+        keyPosition["rm"] = 9
+        keyPosition["rm_fib"] = 10
+        keyPosition["fi_ch"] = 11
+        keyPosition["htr_fib"] = 15
+        keyPosition["spigo"] = 17
+        keyPosition["fedid"] = 19
+
+    return keyPosition
+        
+        
 
 def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
 
@@ -46,27 +73,21 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
 
     RBXnameRange = subdet
     rmRange = ['1','2','3','4']
+    if "CALIB" in iMapfile: rmRange = ['4','5']
+    keyPosition = getKeyPosition(iMapfile)
 
     for i in range(0, len(lines)):   #loop through Map file
         if "## file created" in lines[i]: continue  #over pass un_needed lines
         if "#   side    eta    phi   dphi" in lines[i]: continue
         current_line = lines[i]
     
-        RBXname = WordStrip(current_line, 8)
-        rm = str(WordStrip(current_line, 10))
-        rm_fib = str(WordStrip(current_line, 14))
-        fi_ch = str(WordStrip(current_line, 15))
-        
-
-        #Due to different format of HBHE and HO address maps
-        if "HO" in RBXname: 
-            htr_fib = str(WordStrip(current_line, 20))
-            spigo = str(WordStrip(current_line, 22))
-            fedid = str(WordStrip(current_line, 24))
-        else:
-            htr_fib = str(WordStrip(current_line, 19))
-            spigo = str(WordStrip(current_line, 21))
-            fedid = str(WordStrip(current_line, 31))
+        RBXname = WordStrip(current_line, keyPosition["RBXname"])
+        rm = str(WordStrip(current_line, keyPosition["rm"]))
+        rm_fib = str(WordStrip(current_line, keyPosition["rm_fib"]))
+        fi_ch = str(WordStrip(current_line, keyPosition["fi_ch"]))
+        htr_fib = str(WordStrip(current_line, keyPosition["htr_fib"]))
+        spigo = str(WordStrip(current_line, keyPosition["spigo"]))
+        fedid = str(WordStrip(current_line, keyPosition["fedid"]))
 
         spigo = WordSpace(spigo,2)
         htr_fib = WordSpace(htr_fib,2)
@@ -81,3 +102,4 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
 
 ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers2.txt", ofile = "HO_Map.txt") 
 ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "HBHE_Map.txt") 
+ReformMap(iMapfile = "HCALmapCALIB_A.txt", iListfile = "CCM_numbers.txt", ofile = "CM_Map.txt")
