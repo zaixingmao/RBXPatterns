@@ -45,7 +45,7 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
         subdet.append(current_line[0:current_line.find(",")])
 
     RBXnameRange = subdet
-    rmRange = ["1","2","3","4"]
+    rmRange = range(1,5)
 
     for i in range(0, len(lines)):   #loop through Map file
         if "## file created" in lines[i]: continue  #over pass un_needed lines
@@ -56,9 +56,16 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
         rm = str(WordStrip(current_line, 10))
         rm_fib = str(WordStrip(current_line, 14))
         fi_ch = str(WordStrip(current_line, 15))
-        htr_fib = str(WordStrip(current_line, 20))
-        spigo = str(WordStrip(current_line, 22))
-        fedid = str(WordStrip(current_line, 24))
+        
+        #Due to different format of HBHE and HO address maps
+        if "HO" in RBXname: 
+            htr_fib = str(WordStrip(current_line, 20))
+            spigo = str(WordStrip(current_line, 22))
+            fedid = str(WordStrip(current_line, 24))
+        else:
+            htr_fib = str(WordStrip(current_line, 19))
+            spigo = str(WordStrip(current_line, 21))
+            fedid = str(WordStrip(current_line, 31))
 
         spigo = WordSpace(spigo,2)
         htr_fib = WordSpace(htr_fib,2)
@@ -71,4 +78,5 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
 
     output.close()   
 
-ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers.txt", ofile = "HO_Map.txt") 
+ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers2.txt", ofile = "HO_Map.txt") 
+ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "HBHE_Map.txt") 
