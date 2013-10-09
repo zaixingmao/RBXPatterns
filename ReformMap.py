@@ -45,7 +45,7 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
         subdet.append(current_line[0:current_line.find(",")])
 
     RBXnameRange = subdet
-    rmRange = range(1,5)
+    rmRange = ['1','2','3','4']
 
     for i in range(0, len(lines)):   #loop through Map file
         if "## file created" in lines[i]: continue  #over pass un_needed lines
@@ -57,6 +57,7 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
         rm_fib = str(WordStrip(current_line, 14))
         fi_ch = str(WordStrip(current_line, 15))
         
+
         #Due to different format of HBHE and HO address maps
         if "HO" in RBXname: 
             htr_fib = str(WordStrip(current_line, 20))
@@ -72,8 +73,8 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
     
         if RBXname in RBXnameRange:
             if rm in rmRange and fi_ch == "0": #save only once per 3 channels
-                if len(RBXname)==5: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "\n"
-                else: outline = fedid + " " + spigo + " " + htr_fib + ":   " + DoubleSpace(RBXname) + "  " + rm + "  " + rm_fib + "\n"
+                if len(RBXname)==5: outline = fedid + " " + spigo + " " + htr_fib + ":  " + RBXname + "  " + rm + " " + rm_fib + "\n"
+                else: outline = fedid + " " + spigo + " " + htr_fib + ":  " + RBXname + " " + rm + " " + rm_fib + "\n"
                 output.writelines(outline)
 
     output.close()   
