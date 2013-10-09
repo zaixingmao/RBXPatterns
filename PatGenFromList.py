@@ -19,6 +19,8 @@ def PatGenFromList(ifile = "", ofile = ""):
     lines = open(ifile, "r").readlines()
     output = open(ofile, "w")
 
+    rmRange = range(1,5)
+    cardRange = range(1,4)
     subdet = []
     for i in range(0, len(lines)):
         current_line = lines[i]
@@ -34,14 +36,18 @@ def PatGenFromList(ifile = "", ofile = ""):
         param4 = '  <Parameter name="CREATIONSTAMP" type="string">13-08-13</Parameter>\n'
         output.writelines(brick_begin + param1 + param2 + param3 + param4)
         
-        for rm in [1, 2,3,4]:
-            for card in range(1,4):
+        if "HF" in rbx: #for special case of HF
+            rmRange = range(1,4)
+            cardRange = range(1,5)
+
+        for rm in rmRange:
+            for card in cardRange:
                 for qie in [0,4]:
                     if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
-                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">20 %s 20</Data>\n' %(rm, card, qie, generator(rbx, rm, card, qie))
+                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">2d %s 2d</Data>\n' %(rm, card, qie, generator(rbx, rm, card, qie))
                         output.writelines(brick)
                     else:
-                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">20 %s 20 20</Data>\n' %(rm, card, qie, generator(rbx, rm, card, qie))
+                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">2d %s 2d 2d</Data>\n' %(rm, card, qie, generator(rbx, rm, card, qie))
                         output.writelines(brick)
 
         brick_end = '</CFGBrick>\n\n'
