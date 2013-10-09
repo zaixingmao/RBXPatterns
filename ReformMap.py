@@ -59,10 +59,10 @@ def getKeyPosition(mapFileName = ""):
         
         
 
-def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
+def ReformMap(iMapfile = "", iListfile = "", ofile = "", oFileOpenMode = "w"):
 
     lines = open(iMapfile, "r").readlines() #opens & read the file
-    output = open(ofile, "w")  #opens & write the file
+    output = open(ofile, oFileOpenMode)  #opens & write the file
 
     ListLines = open(iListfile, "r").readlines()
 
@@ -100,6 +100,6 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = ""):
 
     output.close()   
 
-ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers2.txt", ofile = "HO_Map.txt") 
-ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "HBHE_Map.txt") 
-ReformMap(iMapfile = "HCALmapCALIB_A.txt", iListfile = "CCM_numbers.txt", ofile = "CM_Map.txt")
+ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers2.txt", ofile = "all_Map.txt") 
+ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "all_Map.txt", oFileOpenMode = "a") 
+ReformMap(iMapfile = "HCALmapCALIB_A.txt", iListfile = "CCM_numbers.txt", ofile = "all_Map.txt", oFileOpenMode = "a")
