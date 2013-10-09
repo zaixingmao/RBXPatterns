@@ -27,6 +27,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 43 53 4d 30 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 43 53 4d 30 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 43 53 4d 30 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 43 53 4d 30 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 43 53 4d 30 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">CSM02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -56,6 +60,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 43 53 4d 30 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 43 53 4d 30 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 43 53 4d 30 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 43 53 4d 30 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 43 53 4d 30 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">CSM03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -85,6 +93,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 43 53 4d 30 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 43 53 4d 30 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 43 53 4d 30 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 43 53 4d 30 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 43 53 4d 30 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM01</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -114,6 +126,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -143,6 +159,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -172,6 +192,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -201,6 +225,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM05</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -230,6 +258,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -259,6 +291,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM07</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -288,6 +324,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -317,6 +357,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM09</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -346,6 +390,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 30 39 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 30 39 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 30 39 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 30 39 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 30 39 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -375,6 +423,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 30 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 30 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 30 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 30 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 30 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM11</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -404,6 +456,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -433,6 +489,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM13</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -462,6 +522,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM14</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -491,6 +555,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM15</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -520,6 +588,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM16</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -549,6 +621,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM17</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -578,6 +654,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBM18</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -607,6 +687,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 4d 31 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 4d 31 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 4d 31 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 4d 31 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 4d 31 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP01</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -636,6 +720,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -665,6 +753,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -694,6 +786,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -723,6 +819,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP05</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -752,6 +852,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -781,6 +885,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP07</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -810,6 +918,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -839,6 +951,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP09</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -868,6 +984,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 30 39 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 30 39 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 30 39 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 30 39 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 30 39 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -897,6 +1017,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 30 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 30 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 30 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 30 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 30 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP11</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -926,6 +1050,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -955,6 +1083,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP13</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -984,6 +1116,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP14</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1013,6 +1149,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP15</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1042,6 +1182,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP16</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1071,6 +1215,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP17</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1100,6 +1248,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HBP18</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1129,6 +1281,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 42 50 31 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 42 50 31 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 42 50 31 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 42 50 31 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 42 50 31 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM01</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1158,6 +1314,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1187,6 +1347,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1216,6 +1380,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1245,6 +1413,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM05</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1274,6 +1446,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1303,6 +1479,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM07</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1332,6 +1512,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1361,6 +1545,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM09</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1390,6 +1578,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 30 39 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 30 39 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 30 39 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 30 39 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 30 39 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1419,6 +1611,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 30 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 30 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 30 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 30 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 30 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM11</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1448,6 +1644,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1477,6 +1677,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM13</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1506,6 +1710,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM14</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1535,6 +1743,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM15</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1564,6 +1776,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM16</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1593,6 +1809,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM17</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1622,6 +1842,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEM18</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1651,6 +1875,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 4d 31 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 4d 31 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 4d 31 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 4d 31 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 4d 31 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP01</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1680,6 +1908,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1709,6 +1941,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1738,6 +1974,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1767,6 +2007,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP05</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1796,6 +2040,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1825,6 +2073,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP07</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1854,6 +2106,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1883,6 +2139,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP09</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1912,6 +2172,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 30 39 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 30 39 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 30 39 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 30 39 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 30 39 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1941,6 +2205,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 30 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 30 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 30 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 30 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 30 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP11</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1970,6 +2238,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -1999,6 +2271,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP13</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2028,6 +2304,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP14</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2057,6 +2337,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP15</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2086,6 +2370,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP16</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2115,6 +2403,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP17</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2144,6 +2436,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HEP18</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2173,6 +2469,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 45 50 31 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 45 50 31 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 45 50 31 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 45 50 31 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 45 50 31 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM01</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2202,6 +2502,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 31 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 31 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 31 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 31 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 31 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2231,6 +2535,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 32 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 32 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 32 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 32 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 32 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2260,6 +2568,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 33 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 33 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 33 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 33 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 33 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2289,6 +2601,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 34 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 34 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 34 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 34 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 34 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM05</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2318,6 +2634,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 35 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 35 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 35 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 35 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 35 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2347,6 +2667,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 36 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 36 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 36 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 36 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 36 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM07</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2376,6 +2700,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 37 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 37 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 37 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 37 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 37 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2405,6 +2733,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 38 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 38 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 38 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 38 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 38 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM09</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2434,6 +2766,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 30 39 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 30 39 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 30 39 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 30 39 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 30 39 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2463,6 +2799,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 31 30 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 31 30 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 31 30 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 31 30 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 31 30 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM11</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2492,6 +2832,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 31 31 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 31 31 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 31 31 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 31 31 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 31 31 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFM12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2521,6 +2865,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 4d 31 32 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 4d 31 32 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 4d 31 32 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 4d 31 32 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 4d 31 32 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP01</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2550,6 +2898,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 31 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 31 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 31 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 31 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 31 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2579,6 +2931,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 32 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 32 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 32 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 32 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 32 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP03</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2608,6 +2964,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 33 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 33 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 33 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 33 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 33 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2637,6 +2997,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 34 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 34 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 34 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 34 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 34 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP05</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2666,6 +3030,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 35 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 35 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 35 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 35 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 35 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2695,6 +3063,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 36 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 36 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 36 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 36 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 36 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP07</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2724,6 +3096,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 37 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 37 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 37 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 37 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 37 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2753,6 +3129,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 38 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 38 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 38 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 38 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 38 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP09</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2782,6 +3162,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 30 39 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 30 39 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 30 39 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 30 39 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 30 39 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2811,6 +3195,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 31 30 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 31 30 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 31 30 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 31 30 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 31 30 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP11</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2840,6 +3228,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 31 31 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 31 31 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 31 31 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 31 31 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 31 31 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HFP12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2869,6 +3261,10 @@
    <Data elements="10" encoding="hex" rm="3" card="3" qie="4">2d 48 46 50 31 32 33 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="0">2d 48 46 50 31 32 33 37 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="3" card="4" qie="4">2d 48 46 50 31 32 33 38 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="0">2d 48 46 50 31 32 34 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="4" card="1" qie="4">2d 48 46 50 31 32 34 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO001</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2898,6 +3294,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO002</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2927,6 +3327,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO003</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2956,6 +3360,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 33 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 33 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 33 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 33 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 33 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO004</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -2985,6 +3393,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 34 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 34 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 34 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 34 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 34 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO005</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3014,6 +3426,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 35 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 35 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 35 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 35 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 35 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO006</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3043,6 +3459,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 36 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 36 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 36 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 36 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 36 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO007</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3072,6 +3492,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 37 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 37 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 37 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 37 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 37 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO008</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3101,6 +3525,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 38 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 38 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 38 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 38 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 38 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO009</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3130,6 +3558,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 30 39 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 30 39 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 30 39 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 30 39 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 30 39 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO010</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3159,6 +3591,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 31 30 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 31 30 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 31 30 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 31 30 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 31 30 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO011</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3188,6 +3624,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 31 31 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 31 31 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 31 31 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 31 31 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 31 31 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO012</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3217,6 +3657,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 30 31 32 34 35 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 30 31 32 34 36 2d 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 30 31 32 34 37 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 30 31 32 35 31 2d 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 30 31 32 35 32 2d 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1M02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3246,6 +3690,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 4d 30 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 4d 30 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 4d 30 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 4d 30 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 4d 30 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1M04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3275,6 +3723,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 4d 30 34 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 4d 30 34 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 4d 30 34 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 4d 30 34 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 4d 30 34 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1M06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3304,6 +3756,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 4d 30 36 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 4d 30 36 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 4d 30 36 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 4d 30 36 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 4d 30 36 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1M08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3333,6 +3789,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 4d 30 38 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 4d 30 38 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 4d 30 38 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 4d 30 38 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 4d 30 38 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1M10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3362,6 +3822,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 4d 31 30 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 4d 31 30 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 4d 31 30 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 4d 31 30 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 4d 31 30 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1M12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3391,6 +3855,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 4d 31 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 4d 31 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 4d 31 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 4d 31 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 4d 31 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1P02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3420,6 +3888,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 50 30 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 50 30 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 50 30 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 50 30 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 50 30 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1P04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3449,6 +3921,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 50 30 34 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 50 30 34 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 50 30 34 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 50 30 34 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 50 30 34 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1P06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3478,6 +3954,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 50 30 36 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 50 30 36 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 50 30 36 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 50 30 36 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 50 30 36 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1P08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3507,6 +3987,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 50 30 38 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 50 30 38 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 50 30 38 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 50 30 38 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 50 30 38 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1P10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3536,6 +4020,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 50 31 30 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 50 31 30 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 50 31 30 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 50 31 30 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 50 31 30 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO1P12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3565,6 +4053,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 31 50 31 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 31 50 31 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 31 50 31 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 31 50 31 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 31 50 31 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2M02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3594,6 +4086,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 4d 30 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 4d 30 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 4d 30 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 4d 30 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 4d 30 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2M04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3623,6 +4119,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 4d 30 34 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 4d 30 34 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 4d 30 34 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 4d 30 34 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 4d 30 34 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2M06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3652,6 +4152,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 4d 30 36 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 4d 30 36 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 4d 30 36 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 4d 30 36 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 4d 30 36 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2M08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3681,6 +4185,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 4d 30 38 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 4d 30 38 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 4d 30 38 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 4d 30 38 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 4d 30 38 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2M10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3710,6 +4218,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 4d 31 30 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 4d 31 30 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 4d 31 30 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 4d 31 30 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 4d 31 30 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2M12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3739,6 +4251,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 4d 31 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 4d 31 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 4d 31 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 4d 31 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 4d 31 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2P02</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3768,6 +4284,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 50 30 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 50 30 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 50 30 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 50 30 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 50 30 32 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2P04</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3797,6 +4317,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 50 30 34 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 50 30 34 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 50 30 34 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 50 30 34 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 50 30 34 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2P06</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3826,6 +4350,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 50 30 36 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 50 30 36 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 50 30 36 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 50 30 36 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 50 30 36 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2P08</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3855,6 +4383,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 50 30 38 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 50 30 38 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 50 30 38 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 50 30 38 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 50 30 38 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2P10</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3884,6 +4416,10 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 50 31 30 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 50 31 30 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 50 31 30 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 50 31 30 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 50 31 30 35 32 2d</Data>
+</CFGBrick>
+
 <CFGBrick>
   <Parameter name="RBX" type="string">HO2P12</Parameter>
   <Parameter name="INFOTYPE" type="string">PATTERNS</Parameter>
@@ -3913,3 +4449,7 @@
    <Data elements="10" encoding="hex" rm="4" card="2" qie="4">2d 48 4f 32 50 31 32 34 35 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="0">2d 48 4f 32 50 31 32 34 36 2d</Data>
    <Data elements="10" encoding="hex" rm="4" card="3" qie="4">2d 48 4f 32 50 31 32 34 37 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="0">2d 48 4f 32 50 31 32 35 31 2d</Data>
+   <Data elements="10" encoding="hex" rm="5" card="1" qie="4">2d 48 4f 32 50 31 32 35 32 2d</Data>
+</CFGBrick>
+
