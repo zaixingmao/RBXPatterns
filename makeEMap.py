@@ -83,22 +83,21 @@ def makeEMap(ifile = "", ofile = ""):
             #changes
             current_line = subString(current_line, str(crate+20), 2)
 
-            if sl in range(2,7): current_line = subString(current_line, str(sl-1), 3)
-            elif sl in range(13,18): current_line = subString(current_line, str(sl-6), 3)
+            if sl in range(2,8): current_line = subString(current_line, str(sl-1), 3)
+            elif sl in range(13,19): current_line = subString(current_line, str(sl-6), 3)
             else: current_line = subString(current_line, '-', 3)
 
             current_line = subString(current_line, 'u', 4)
             current_line = subString(current_line, '0', 5)
             current_line = subString(current_line, '0', 6)
 
-            if tb == 't': current_line = subString(current_line, str(fiber+1), 7)
-            elif tb == 'b': current_line = subString(current_line, str(fiber+13), 7)
+            if tb == 'b': current_line = subString(current_line, str(fiber+1), 7)
+            elif tb == 't': current_line = subString(current_line, str(fiber+13), 7)
                     
-
         output.writelines(current_line)
 
 
     output.close() 
 
 
-makeEMap(ifile = "/Users/zmao/Downloads/test.txt", ofile = "test2.txt") 
+makeEMap(ifile = "/Users/zmao/Downloads/version_E_emap.txt", ofile = "version_E_emap_new3.txt") 

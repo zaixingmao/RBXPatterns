@@ -2,8 +2,17 @@
 
 #Generates all possible pattern bricks with elements in ascii hex values for a list of RBXs, stores in new xml file
 
+def encode(input):
+    output = input - 32
+    output = output*2
+    return output
+
 def generator(rbx="", rm="", card="", qie=""):
     out = []
+    rm_new = encode(rm)
+    card_new = encode(card)
+    qie_new = encode(qie)
+
     for letter in rbx:
         out.append(format(ord(letter),"x"))
     for i in str(rm):
@@ -15,8 +24,12 @@ def generator(rbx="", rm="", card="", qie=""):
         out.append(format(ord(str(i)),"x"))
     return " ".join(out)
 
+
 def generatorCM(rbx="", rm="", qie=""):
     out = []
+    rm_new = encode(rm)
+    qie_new = encode(qie)
+
     for letter in rbx:
         out.append(format(ord(letter),"x"))
     for i in str(rm):
@@ -28,6 +41,8 @@ def generatorCM(rbx="", rm="", qie=""):
 
 
 def PatGenFromList(ifile = "", ofile = ""):
+
+    hyphen = '2d'
 
     lines = open(ifile, "r").readlines()
     output = open(ofile, "w")
@@ -60,10 +75,10 @@ def PatGenFromList(ifile = "", ofile = ""):
             for card in cardRange:
                 for qie in [0,4]:
                     if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
-                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">2d %s 2d</Data>\n' %(rm, card, qie, generator(rbx, rm, card, qie))
+                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">%s %s %s</Data>\n' %(rm, card, qie, hyphen, generator(rbx, rm, card, qie), hyphen)
                         output.writelines(brick)
                     else:
-                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">2d %s 2d 2d</Data>\n' %(rm, card, qie, generator(rbx, rm, card, qie))
+                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">%s %s %s %s</Data>\n' %(rm, card, qie, hyphen, generator(rbx, rm, card, qie), hyphen, hyphen)
                         output.writelines(brick)
 
         #For Calibration Module
@@ -71,14 +86,14 @@ def PatGenFromList(ifile = "", ofile = ""):
         card = 1
         for qie in [0,4]:
             if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
-                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">2d %s 2d</Data>\n' %(rm, qie, generatorCM(rbx, rm, qie))
+                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">%s %s %s</Data>\n' %(rm, qie, hyphen, generatorCM(rbx, rm, qie), hyphen)
                 output.writelines(brick)
             else:
-                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">2d %s 2d 2d</Data>\n' %(rm, qie, generatorCM(rbx, rm, qie))
+                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">%s %s %s %s</Data>\n' %(rm, qie, hyphen, generatorCM(rbx, rm, qie), hyphen, hyphen)
                 output.writelines(brick)
         brick_end = '</CFGBrick>\n\n'
         output.writelines(brick_end)
                 
     output.close()
 
-PatGenFromList("CCM_numbers.txt", "patterns.xml")
+PatGenFromList("CCM_numbers.txt", "patterns2.xml")
