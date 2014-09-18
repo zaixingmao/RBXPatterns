@@ -9,19 +9,15 @@ def encode(input):
 
 def generator(rbx="", rm="", card="", qie=""):
     out = []
-    rm_new = encode(rm)
-    card_new = encode(card)
-    qie_new = encode(qie)
-
     for letter in rbx:
-        out.append(format(ord(letter),"x"))
+        out.append(format(encode(ord(letter)),"x"))
     for i in str(rm):
-        out.append(format(ord(str(i)),"x"))
+        out.append(format(encode(ord(str(i))),"x"))
     rm_fib = 2*card + qie/4
     if "HF" in rbx: 
         rm_fib -= 1
     for i in str(rm_fib):
-        out.append(format(ord(str(i)),"x"))
+        out.append(format(encode(ord(str(i))),"x"))
     return " ".join(out)
 
 
@@ -31,19 +27,21 @@ def generatorCM(rbx="", rm="", qie=""):
     qie_new = encode(qie)
 
     for letter in rbx:
-        out.append(format(ord(letter),"x"))
+        out.append(format(encode(ord(letter)),"x"))
     for i in str(rm):
-        out.append(format(ord(str(i)),"x"))
+        out.append(format(encode(ord(str(i))),"x"))
     rm_fib = 1 + qie/4
     for i in str(rm_fib):
-        out.append(format(ord(str(i)),"x"))
+        out.append(format(encode(ord(str(i))),"x"))
     return " ".join(out)
 
 
 def PatGenFromList(ifile = "", ofile = ""):
 
-    hyphen = '2d'
-
+    hyphen = '1a'
+    hyphen_10 = hyphen
+    for i in range(9):
+        hyphen_10 += ' %s' %hyphen
     lines = open(ifile, "r").readlines()
     output = open(ofile, "w")
 
@@ -72,13 +70,21 @@ def PatGenFromList(ifile = "", ofile = ""):
             cardRange = range(1,4)
 
         for rm in rmRange:
+            if rm == 4 and (rbx[0:2] == "HF" or rbx[0:2] == "HE"):
+                preSpace = ""
+                postSpace = hyphen_10
+            else:
+                preSpace = hyphen_10
+                preSpace += " "
+                postSpace = ""
+
             for card in cardRange:
                 for qie in [0,4]:
                     if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
-                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">%s %s %s</Data>\n' %(rm, card, qie, hyphen, generator(rbx, rm, card, qie), hyphen)
+                        brick = '   <Data elements="20" encoding="hex" rm="%s" card="%s" qie="%s">%s%s %s %s %s</Data>\n' %(rm, card, qie, preSpace, hyphen, generator(rbx, rm, card, qie), hyphen, postSpace)
                         output.writelines(brick)
                     else:
-                        brick = '   <Data elements="10" encoding="hex" rm="%s" card="%s" qie="%s">%s %s %s %s</Data>\n' %(rm, card, qie, hyphen, generator(rbx, rm, card, qie), hyphen, hyphen)
+                        brick = '   <Data elements="20" encoding="hex" rm="%s" card="%s" qie="%s">%s%s %s %s %s %s</Data>\n' %(rm, card, qie, preSpace, hyphen, generator(rbx, rm, card, qie), hyphen, hyphen, postSpace)
                         output.writelines(brick)
 
         #For Calibration Module
@@ -86,14 +92,14 @@ def PatGenFromList(ifile = "", ofile = ""):
         card = 1
         for qie in [0,4]:
             if rbx[0:4] in ["HO1M", "HO2M", "HO1P", "HO2P"]:
-                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">%s %s %s</Data>\n' %(rm, qie, hyphen, generatorCM(rbx, rm, qie), hyphen)
+                brick = '   <Data elements="20" encoding="hex" rm="%s" card="1" qie="%s">%s%s %s %s %s</Data>\n' %(rm, qie, preSpace, hyphen, generatorCM(rbx, rm, qie), hyphen, postSpace)
                 output.writelines(brick)
             else:
-                brick = '   <Data elements="10" encoding="hex" rm="%s" card="1" qie="%s">%s %s %s %s</Data>\n' %(rm, qie, hyphen, generatorCM(rbx, rm, qie), hyphen, hyphen)
+                brick = '   <Data elements="20" encoding="hex" rm="%s" card="1" qie="%s">%s%s %s %s %s %s</Data>\n' %(rm, qie, preSpace, hyphen, generatorCM(rbx, rm, qie), hyphen, hyphen, postSpace)
                 output.writelines(brick)
         brick_end = '</CFGBrick>\n\n'
         output.writelines(brick_end)
                 
     output.close()
 
-PatGenFromList("CCM_numbers.txt", "patterns2.xml")
+PatGenFromList("CCM_numbers.txt", "patterns_test.xml")

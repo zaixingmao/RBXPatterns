@@ -100,6 +100,6 @@ def ReformMap(iMapfile = "", iListfile = "", ofile = "", oFileOpenMode = "w"):
 
     output.close()   
 
-ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers2.txt", ofile = "all_Map.txt") 
+ReformMap(iMapfile = "HCALmapHO_A.txt", iListfile = "CCM_numbers.txt", ofile = "all_Map.txt") 
 ReformMap(iMapfile = "HCALmapHBEF_B.txt", iListfile = "CCM_numbers.txt", ofile = "all_Map.txt", oFileOpenMode = "a") 
 ReformMap(iMapfile = "HCALmapCALIB_A.txt", iListfile = "CCM_numbers.txt", ofile = "all_Map.txt", oFileOpenMode = "a")
